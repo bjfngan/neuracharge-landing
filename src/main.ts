@@ -13,5 +13,5 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 const portalButton = document.querySelector<HTMLButtonElement>('#portalButton')!;
 portalButton.addEventListener('click', () => {
     // This keeps the domain (neuracharge.edgecom.ai) and moves to the desired path
-    window.location.href = '/data/perspective/client/admin/overview';
+    window.location.href = 'https://neuracharge.edgecom.ai/data/perspective/client/admin/overview';
 });
