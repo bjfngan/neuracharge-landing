@@ -56,7 +56,7 @@ const Index = () => {
               onMouseLeave={(e) => {
                 e.currentTarget.style.backgroundColor = '#0966C9';
               }}
-              onClick={() => window.open('https://neuracharge.edgecom.ai/data/perspective/client/admin/overview', '_blank')}
+              onClick={() => window.open('https://portal.edgecom.ai/', '_blank')}
             >
               Access Portal
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
